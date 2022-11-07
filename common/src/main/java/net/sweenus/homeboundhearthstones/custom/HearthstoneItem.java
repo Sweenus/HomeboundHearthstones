@@ -39,16 +39,6 @@ public class HearthstoneItem extends Item {
     private boolean canTeleport;
 
     @Override
-    public boolean isUsedOnRelease(ItemStack stack) {
-        return false;
-    }
-
-    @Override
-    public int getMaxUseTime(ItemStack stack) {
-            return (int) HomeboundHearthstonesConfig.getGeneralSettings("hearthstone_charge_duration");
-    }
-
-    @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         if (!user.world.isClient()) {
             ItemStack stack = user.getEquippedStack(EquipmentSlot.MAINHAND);
