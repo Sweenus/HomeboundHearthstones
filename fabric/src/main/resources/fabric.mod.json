@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "homeboundhearthstones",
+  "version": "${version}",
+  "name": "HomeboundHearthstones",
+  "description": "Balanced and highly configurable way to teleport back to base",
+  "authors": [
+    "Sweenus"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.sweenus.homeboundhearthstones.fabric.HomeboundHearthstonesFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": ">=1.19.2"
+  }
+}

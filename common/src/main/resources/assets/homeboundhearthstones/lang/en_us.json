@@ -1,0 +1,11 @@
+{
+  "item.homeboundhearthstones.hearthstone": "Hearthstone",
+  "item.homeboundhearthstones.hearthstoneitem.savedcoords": "Your Hearthstone is now attuned to this bed!",
+  "item.homeboundhearthstones.hearthstoneitem.interdimensionalfalse": "The Hearthstone seems to have lost its connection to the Overworld.",
+  "item.homeboundhearthstones.hearthstoneitem.cannotteleport": "%ds cannot be transported with Hearthstones.",
+  "item.homeboundhearthstones.hearthstone.tooltip1": "Teleport to your attuned bed.",
+  "item.homeboundhearthstones.hearthstone.tooltip2": "Attunes your Hearthstone to a nearby bed.",
+  "item.homeboundhearthstones.hearthstone.remainingcooldown": "Remaining Cooldown: %dm",
+  "item.homeboundhearthstones.sneakanduse": "On Sneak + Right Click:",
+  "item.homeboundhearthstones.onrightclick": "On Right Click:"
+}
